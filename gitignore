@@ -1,0 +1,11 @@
+.DS_Store
+*.o
+*.so
+.Rhistory
+ignore
+*.dll
+Rprof.out
+notes.md
+notes-*.md
+*.Rcheck
+.~lock.*

@@ -1,0 +1,18 @@
+[user]
+	name = Rich FitzJohn
+	email = rich.fitzjohn@gmail.com
+[alias]
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit
+        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+        ff = merge --ff-only
+        undo-commit = reset --soft HEAD^
+	diffw = diff -w
+	fixup = commit --amend --no-edit
+[push]
+        default = simple
+[core]
+        excludesfile = ~/lib/git/gitignore
+[init]
+        templatedir = ~/lib/git/template
+[diff]
+	compactionHeuristic = true
